@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Dr. Abhishek Kulkarni",
+    designation: "Member @Indian Society of Paediatric & Adolescent Endocrinology",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "As a pediatrician, I've witnessed the devastating impact of preventable child deaths firsthand. This website provides invaluable resources and solutions to address this urgent issue. I'm proud to be part of a community dedicated to saving young lives.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Dr. Abhijit Bagde",
+    designation: "Consultant Pediatrician (MBBS, DNB – Paediatrics, FNB – Pediatric Intensive Care)",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "As a pediatrician, I've witnessed the devastating impact of preventable child deaths firsthand. This website provides invaluable resources and solutions to address this urgent issue. I'm proud to be part of a community dedicated to saving young lives.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Dr. Jasjit Singh Bhasin",
+    designation: "Member @Indian Medical Association (IMA) ",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The fight against preventable child deaths requires collaboration and action from all sectors. This website serves as a vital platform for sharing knowledge, fostering partnerships, and mobilizing resources. I'm inspired by the collective efforts to protect the most vulnerable members of our society.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Doctors Says"
+          paragraph="Every child deserves a chance to thrive - let's work together to end preventable child deaths by 2030"
           center
         />
 
